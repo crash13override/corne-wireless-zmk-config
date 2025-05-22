@@ -55,7 +55,7 @@
             bindings = <
 &kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR  &none
 &trans     &none     &none   &none     &none     &none        &none      &none     &none         &none     &none     &none
-&trans     &none     &none   &none     &none     &none        &none      &none     &none         &none     &none     &trans
+&trans     &none     &none   &none     &none     &none        &to 3      &none     &none         &none     &none     &trans
                              &to 0     &trans    &trans       &trans     &to 1     &trans
             >;
         };
